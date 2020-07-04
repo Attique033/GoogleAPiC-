@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,7 @@ namespace apidemo
     class Program
     {
         String response, result;
-        String apiKey="Your_API_KEY;
+        static const String apiKey="Your_API_KEY";
         static void Main(string[] args)
         {
             getdata("HD1 4DN");
@@ -21,7 +21,7 @@ namespace apidemo
         {
             using (var client = new HttpClient())
             {
-                var response = await client.GetStringAsync(String.Format("https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={0}&inputtype=textquery&&fields=photos,formatted_address,name,opening_hours,rating&key=AIzaSyA9aqOhINn43CeS1jgNmgYFd-gDlCPRj8c", code));
+                var response = await client.GetStringAsync(String.Format("https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input={0}&inputtype=textquery&&fields=photos,formatted_address,name,opening_hours,rating&key={1}", code,apiKey));
                 Console.Write(response);
             }
         }
