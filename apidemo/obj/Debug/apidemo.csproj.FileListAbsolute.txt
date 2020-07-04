@@ -1,0 +1,6 @@
+C:\Users\JRAR\Documents\Visual Studio 2012\Projects\apidemo\apidemo\bin\Debug\apidemo.exe.config
+C:\Users\JRAR\Documents\Visual Studio 2012\Projects\apidemo\apidemo\bin\Debug\apidemo.exe
+C:\Users\JRAR\Documents\Visual Studio 2012\Projects\apidemo\apidemo\bin\Debug\apidemo.pdb
+C:\Users\JRAR\Documents\Visual Studio 2012\Projects\apidemo\apidemo\obj\Debug\apidemo.csprojResolveAssemblyReference.cache
+C:\Users\JRAR\Documents\Visual Studio 2012\Projects\apidemo\apidemo\obj\Debug\apidemo.exe
+C:\Users\JRAR\Documents\Visual Studio 2012\Projects\apidemo\apidemo\obj\Debug\apidemo.pdb
